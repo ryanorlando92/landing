@@ -14,24 +14,145 @@ ul {
     list-style-type: none;
 }
 
-header {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+a {
+    color: #f9faf8;
+    text-decoration: none;
 }
 
+header, footer {
+    padding: 16px;
+    height: 50px;
+    background-color: #1f2937;
+    display: flex;
+    justify-content: space-between;
+    flex: none;
+  }
+
 .header-left {
+    color: #f9faf8;
+    font-size: 24px;
     align-self: center;
     display: flex;
     align-items: center;
 }
 
+.header-left img {
+    height: 150px;
+}
+
 .header-right {
+    color: #e5e7eb;
+    font-size: 18px;
     display: flex;
-    align-self: flex-end;
+    align-self: center;
 }
 
 .header-links {
     display: flex;
-    gap: 10px;
+    gap: 15px;
+}
+
+.header-links a {
+    padding: 15px 5px;
+}
+
+footer {
+    color: #e5e7eb;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: auto;
+    height: 50px;
+}
+
+.footer-content {
+
+}
+
+
+.section-hero {
+    display: flex;
+    justify-content: center;
+    background-color: #1f2937;
+    
+}
+
+.hero-wrapper {
+    width: 33%;
+    margin: 75px 0;
+    padding: 20px;
+}
+
+.hero-heading {
+    font-size: 48px;
+    font-weight: 900;
+    color: #f9faf8;
+}
+
+.hero-content {
+    font-size: 18px;
+    color: #e5e7eb;
+    margin: 10px 0px;
+}
+
+.image-container {
+    width: 33%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.image-container img {
+    width: 100%;
+}
+
+.hero-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: auto;
+}
+
+.hero-button {
+    color: #f9faf8;
+    background-color: #3882f6;
+    margin: 10px 0px;
+    padding: 10px;
+    border-radius: 5px;
+}
+.card-title {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+    text-align: center;
+    padding: 20px;
+
+}
+
+.card-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5%;
+    box-shadow: ;
+}
+
+.card img {
+    border-radius: 10px;
+    border: 2px solid #1f2937;
+    height: auto;
+    width: 200px;
+}
+
+.card-text {
+    text-align: center;
+}
+
+.card-text h4 {
+    margin: 0;
+}
+
+.card-text h5 {
+    margin: 0;
 }
