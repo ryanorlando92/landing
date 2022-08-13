@@ -22,7 +22,7 @@ a {
 }
 
 header, footer {
-    padding: 16px;
+    padding: 16px 24px;
     height: 50px;
     background-color: #1f2937;
     display: flex;
@@ -118,18 +118,12 @@ footer {
         height: 50px;
     }
 
-    .hero-button {
-        color: #f9faf8;
-        background-color: #3882f6;
-    }
-
     .signup-button {    
         border: 2px solid #f9faf8;
-        color: #f9faf8;
     }   
 
 .section-cards {
-    height: 33%;
+    height: 28rem;
 }
 
     .card-title {
